@@ -1,3 +1,45 @@
 body, html {
   font-size: 12px;
+	font-family: Helvetica, Helvetisan-serif, san-serif;
+}
+
+.cool-paragraph-style {
+	color: purple;
+	text-align: center;
+}
+
+.left-text-block {
+	position: absolute;
+	width: 10%;
+	margin: auto;
+	padding: 0px 20px 1px 0px;
+	height: 5rem;
+	background-color: green;
+}
+
+.left-text-block:hover {
+	color: orange;
+	font-size: 7rem;
+	width: 100%;
+	background-color: purple;
+	font-weight: 898453 !important;
+}
+
+
+#navbar {
+	background-color: silver;
+	display: block;
+	height: 5rem;
+	text-align: right;
+}
+
+img {
+	padding: 20px 0 0 30px;
+	float: left;
+	width: 20%;
+	height: 20%;
+}
+
+.special-div:hover {
+	width: 400%;
 }
